@@ -14,6 +14,13 @@
     "bin" : [
         "bin/feedio"
     ],
+    "repositories":
+    [
+            {
+                "type": "vcs",
+                "url": "https://github.com/brutalnv/feed-io"
+            }
+    ],
     "require": {
         "php": ">=7.1",
         "guzzlehttp/guzzle": "~5.3",
